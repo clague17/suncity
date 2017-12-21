@@ -4,7 +4,7 @@ html
 }
 header {
     text-align: center;
-    background-image: url(images/banner.jpg);
+    background-image: url(banner.jpg);
     background-position: center;
     background-size: cover;
     display: block;
