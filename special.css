@@ -5,7 +5,7 @@ html
 
 header {
     text-align: center;
-    background-image: url(images/banner.jpg);
+    background-image: url(banner.jpg);
     background-position: center;
     background-size: cover;
     display: block;
@@ -18,7 +18,7 @@ header {
 {
 	background: rgba(0,0,0,.5);
 	display: inline-block;
-    list-style: none;
+	list-style: none;
 	align-content: center;
 	width: 100%;
 }
