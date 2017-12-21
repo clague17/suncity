@@ -1,0 +1,35 @@
+#carousel{
+    width: 80%;
+    border: 1px solid black;
+    margin: 0 auto;
+    background: white;
+    
+}
+
+#carousel>img{
+    max-width: 45%;
+    max-height: 80%;
+}
+#carousel>button{
+    
+}
+#carousel>.btn{
+    position: absolute;
+    width: 3%;
+    height: 4%;
+    border: none;
+    border-radius: 45%;
+    background: black;
+    color: white;
+    font-size: 90%;
+}
+#carousel>#btn1:hover{
+    box-shadow: 4px 0px 4px 10px black;
+}
+#carousel>#btn2:hover{
+    box-shadow: -4px 0px 4px 10px black;
+}
+#carousel>#btn2{
+    float:right;
+
+}

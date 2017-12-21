@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    
+    <script src="https://www.gstatic.com/firebasejs/3.7.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBIYh5Jkl0u0YsYgj_ejrxMUD6JxT_b1cg",
+        authDomain: "compsci-ia.firebaseapp.com",
+        databaseURL: "https://compsci-ia.firebaseio.com",
+        storageBucket: "compsci-ia.appspot.com",
+        messagingSenderId: "1046405419447"
+      };
+      firebase.initializeApp(config);
+    </script>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sun City Driving School</title>
+        <meta name="description" content=" Teaching Drivers in Westside El Paso">
+        <link rel="stylesheet" href="main.css">
+        <link rel="shortcut icon" href="favicon.ico">
+        <!-- Font Styles -->
+        <link href="https://fonts.googleapis.com/css?family=Quicksand|Taviraj" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <script src="js/admin.js"></script>
+        <script src="js/jquery-3.1.1.min.js"></script>
+
+        <link rel="stylesheet" href="admin.css">
+    </head>
+    
+    <body>
+        
+        <header>
+            <div class="spacer">
+                <div class="suncity">
+                    <img src="images/Logo.jpg" alt="Logo" style="width:300px;height:200px;">
+                </div>
+                </div>
+            <div class="nav-bar">
+                <ul class="tab-links"> 
+                    <li><a href="html/index.html">Home</a></li>
+                    <li><a href="html/contact.html">Contact</a></li>
+                    <li><a href="html/services.html">Services</a></li>
+                    <li><a href="html/ittd.html">ITTD</a></li>
+                    <li><a href="html/photo.html">Photo Gallery</a></li>
+                <div class="dropdown">
+                    <li><a href="html/schedules.html">Class Schedules</a></li>
+                    <div class="dropdown-content">
+                        <a href="html/teenclass.html">Teen Class Additional Information</a>
+                        <a href="html/adultclass.html">Adult Class Additional Information</a>
+                    </div>
+                </div>
+                </ul>
+
+            </div>
+        </header>
+        
+        <div class="container">
+            <input id="txtEmail" type="email" placeholder="Email">
+            
+            <input id="txtPassword" type="password" placeholder="Password">
+            
+            <button id="btnLogin" class="btn btn-action" onclick="firebaseLogin()">
+            Log In
+            </button>
+            
+            <button id="btnLogout" class="btn btn-action hide" onclick="firebaseLogout()">
+            Log Out
+            </button>
+        </div>
+
+        <!-- Main Page Content -->
+        <div id="content">
+            <div class="bulletin">
+                <article>
+                    <h1>
+                    Please input username and password. Administrators only.
+                    </h1>
+
+                </article>
+
+            </div>
+                 
+    <div class="footer">
+    ©SunCityDriving LLC. All Rights Reserved.<br>
+    <img src="images/Logo.jpg" style="height:70px; width: 120px;">
+    </div>
+	
+	<!-- Anything Else -->
+</html>

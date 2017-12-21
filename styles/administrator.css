@@ -1,0 +1,8 @@
+#container {
+    margin: 0, auto;
+}
+#buffer {
+    width: 100%;
+    max-height: 50%;
+    background: #fac943;
+}

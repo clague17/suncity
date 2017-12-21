@@ -1,0 +1,78 @@
+.content
+{
+    background: white;
+    text-align: center;
+    
+}
+
+.left-container a
+{
+    text-decoration: none;
+    text-align: center;
+}
+
+.left-container a:hover
+{
+    font-weight: 900;
+    background: darkred;
+    color: white;
+    padding: 0px 10px;
+}
+
+.left-container
+{
+    float: left;
+    width: 67%;
+    background: white;
+    margin: 0 auto;
+    margin-right: 0px;
+    padding-bottom: 33px;
+    text-align: center;
+    
+}
+.left-container img
+{
+    width: 75%;
+}
+
+.left-container p
+{
+    padding: 10px;
+}
+
+.left-container hr
+{
+    width: 75%;
+    border-width: 3px;
+    border-style: groove;
+    border-color: black;
+}
+
+.bottom-right
+{
+    background: rgba(204, 0, 0, .5);
+    text-align: center;
+    padding: 2%;
+}
+.bottom-right h3
+{
+    text-align: left;
+    margin-left: 30px;
+    line-height: 1.85em;
+}
+
+.right-container hr
+{
+    width: 69%;
+    border-style: groove;
+}
+.right-container
+{
+    width: 33%;
+	float:right;
+	background: darkred;
+	text-align: center;
+    color: white;
+    padding-top: 0px;
+    padding-bottom: 40px
+}
