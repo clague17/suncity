@@ -50,10 +50,10 @@ var eventDescription;
     ref.on('value', gotData, errData);
 
     function gotData(data){
-        
         console.log(data.val());
         var events = data.val();
         var keys = Object.keys(events);
+
         console.log(keys);
         for(var i=0; i<keys.length; i++){
             var k = keys[i];
